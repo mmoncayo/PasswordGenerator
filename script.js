@@ -95,9 +95,9 @@ function generatePassword(length){
     // console.log(password);
 
     // slices the password that was generated to meet the exact character count the user input
-    //var finalPassword= password.slice(0,length);
+    var finalPassword= password.slice(0,length);
     //return the final generated password 
-    return password;
+    return finalPassword;
     }
 }
 
