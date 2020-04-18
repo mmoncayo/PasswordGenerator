@@ -20,7 +20,7 @@ function writePassword() {
   // if the user enters an invalid number (i.e., a number less than 8 or more than 128), alert the user to enter a valid entry
   if(length < 8 || length > 128){
     alert("Must enter a valid number.");
-    return " ";
+    return "Your Secure Password";
     } 
     // if the user enters a valid number, then proceed with the generatePassword function
     else{
@@ -55,7 +55,7 @@ function generatePassword(length){
     // does a validity check to see if at least one character type was selected for the password
     if(!lowercaseChecked && !uppercaseChecked && !numberChecked && !symbolChecked){
         alert("Must choose at least one character type.");
-        return " ";
+        return "Your Secure Password";
         }
     else {
     // initializes the password by starting off as blank
