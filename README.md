@@ -1,4 +1,4 @@
-# PasswordGenerator
+# Password Generator (deployed link: https://mmoncayo.github.io/PasswordGenerator/)
 
 This homework assignment required me to be able to write out pseudocode to fully visualize exactly what I was trying to execute for the Password Generator
 
